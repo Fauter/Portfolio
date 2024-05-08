@@ -1,0 +1,57 @@
+.containerName {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 1.03;
+}
+
+.name {
+    display: inline flex;
+    font-size: 100px;
+    color: #f5e7b2;
+    width: 800px;
+    justify-content: center;
+    padding-bottom: -10px;
+}
+.name p {
+    padding: 0 7px 0 7px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.555);
+}
+
+.developer {
+    display: inline flex;
+    font-size: 60px;
+    color: #a09674;
+    width: 800px;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.555);
+}
+
+.redes {
+    display: inline-flex;
+    background-color: white;
+    opacity: 50%;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    padding: 1px 3px;
+    border-radius: 3px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.555);
+}
+.redes a {
+    width: 100px;
+    height: 100px;
+    margin: 0px 5px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+.redes a:hover {
+    transform: scale(1.1);
+}

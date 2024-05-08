@@ -1,0 +1,55 @@
+
+.containerAbout {
+    display: flex;
+    min-height: 95vh;
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.containerAbout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 28, 168, 0.705);
+    filter: blur(300px);
+}
+.containerAbout p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 15px 0;
+}
+
+.boxAbout {
+    position: relative;
+    display: flex;
+    margin: 9vh 3% 0px 3%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.izqAbout {
+    width: 60%;
+    padding: 0 50px;
+}
+.derAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.fotoAbout {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    opacity: 60%
+}
+
+.txt {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
